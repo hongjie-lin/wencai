@@ -22,8 +22,8 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config --local user.email "378600950@qq.com"
-        git config --local user.name "qqhsx"
+        git config --local user.email "treey.lin@gmail.com"
+        git config --local user.name "hongjay"
 
     - name: Install dependencies
       run: |
