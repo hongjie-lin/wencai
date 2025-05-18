@@ -11,9 +11,9 @@ try:
     processed_data = []
     for index, row in res.iterrows():
         code = str(row['股票代码'])
-        if code.startswith(('000', '001', '002', '003', '300', '301', '200')):
+        if code.startswith(('000', '001', '002', '003', '300', '301', '302', '200')):
             market = '0'
-        elif code.startswith(('600', '601', '603', '605', '688', '689', '900')):
+        elif code.startswith(('600', '601', '603', '605', '688', '689', '900', '902')):
             market = '1'
         elif code.startswith(('8', '4')):
             market = '2'
